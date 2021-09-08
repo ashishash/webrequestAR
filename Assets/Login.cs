@@ -101,9 +101,7 @@ public class Login : MonoBehaviour
         Debug.Log(Password);
 
 
-       // { "logindata":{ "email":"yuvaraj.ravi@in.ebmpapst.com","password":"jaravuy2019"} }
-
-      //  { \"email\":" + Username + ", \"password\":" + Password + "} 
+      
 
         var bodyJsonString = " { \"logindata\":{ \"email\":\"" + Username + "\", \"password\":\"" + Password + "\"}  } ";
         Debug.Log(bodyJsonString);
@@ -140,7 +138,7 @@ public class Login : MonoBehaviour
           SceneManager.LoadScene("mus");
 
 
-            token = "Basic eXV2YXJhai5yYXZpQGluLmVibXBhcHN0LmNvbTpqYXJhdnV5MjAxOQ==";
+           
             Debug.Log(token);
             Debug.Log("ENTER API");
 
